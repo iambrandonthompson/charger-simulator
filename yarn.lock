@@ -213,6 +213,19 @@ charenc@0.0.2:
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
   integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
+charger-simulator@vasyas/charger-simulator:
+  version "1.0.3"
+  resolved "https://codeload.github.com/vasyas/charger-simulator/tar.gz/9b0709180c9b9941f33e8fa1a9cdf3316a72e71b"
+  dependencies:
+    "@push-rpc/core" "^1.8.3"
+    "@push-rpc/websocket" "^1.8.3"
+    "@types/ws" "^8.5.10"
+    command-line-args "^5.1.1"
+    command-line-usage "^6.1.0"
+    strong-soap "1.21.0"
+    ws "^8.16.0"
+    xml2js "^0.4.23"
+
 cldrjs@^0.5.4:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/cldrjs/-/cldrjs-0.5.5.tgz#5c92ca2de89a8a16dea76cb2dfc4e00104428e52"

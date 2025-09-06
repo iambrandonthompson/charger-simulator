@@ -103,7 +103,7 @@ export class ChargerSimulator {
 
     if (this.config.defaultHeartbeatIntervalSec) {
       setInterval(() => {
-        this.centralSystem.Heartbeat()
+        this.centralSystem.Heartbeat({})
       }, this.config.defaultHeartbeatIntervalSec * 1000)
     }
   }
